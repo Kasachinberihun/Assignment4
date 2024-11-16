@@ -1,0 +1,67 @@
+/* General Page Styles */
+body {
+    margin: 0;
+    padding: 0;
+    border: 5px solid black; /* Black page border */
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    font-family: Arial, sans-serif; /* Clean, readable font */
+}
+
+/* Form Container */
+.form-container {
+    background-color: lightblue; /* Light blue background */
+    margin: 20px auto; /* Center the form horizontally */
+    padding: 20px;
+    max-width: 800px; /* Restrict the width for readability */
+    border-radius: 10px; /* Rounded corners for a polished look */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect for depth */
+}
+
+/* Header Styles */
+header {
+    text-align: center; /* Center-aligns the logo and titles */
+    margin-bottom: 20px; /* Adds spacing below the header */
+}
+
+header img {
+    width: 150px; /* Standard logo width */
+    height: 50px; /* Standard logo height */
+    margin-bottom: 10px; /* Space below the logo */
+}
+
+header h1, header h2 {
+    margin: 5px 0; /* Compact spacing between the titles */
+}
+
+/* Instructions Paragraph */
+.instructions {
+    text-align: left; /* Left-align for easy readability */
+    margin-bottom: 20px; /* Adds space after instructions */
+}
+
+/* Section Titles */
+h2 {
+    color: #000080; /* Navy blue for headings */
+    text-transform: uppercase; /* Uppercase for emphasis */
+    margin-bottom: 10px; /* Add spacing below section titles */
+}
+
+/* Form Section Styles */
+.section {
+    margin-bottom: 20px; /* Adds space between form sections */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 20px; /* Space above the footer */
+    text-align: center; /* Center-align footer text */
+}
+
+footer a {
+    color: #000080; /* Navy blue for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover for accessibility */
+}
